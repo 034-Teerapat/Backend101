@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-10-09T05:41:40.403Z",
+  "student": {
+    "id": "67130500001",
+    "name": "Kanokphon Sueby",
+    "secretKey": "67KaSu"
+  },
+  "totalScore": 80,
+  "maxScore": 100,
+  "results": [
+    {
+      "name": "Student Identity Endpoint",
+      "category": "1. Identity",
+      "points": 0,
+      "maxPoints": 10,
+      "passed": false,
+      "duration": 7,
+      "error": "studentId mismatch. Expected '67130500001', got '12367130500001'"
+    },
+    {
+      "name": "GET All Brands (List)",
+      "category": "2. Brands API",
+      "points": 5,
+      "maxPoints": 5,
+      "passed": true,
+      "duration": 21
+    },
+    {
+      "name": "GET Brand by ID & 404 Check",
+      "category": "2. Brands API",
+      "points": 5,
+      "maxPoints": 5,
+      "passed": true,
+      "duration": 5
+    },
+    {
+      "name": "GET Products Pagination Envelope",
+      "category": "3. Products Query",
+      "points": 15,
+      "maxPoints": 15,
+      "passed": true,
+      "duration": 3
+    },
+    {
+      "name": "Summary DTO Filtering (GET /products)",
+      "category": "3. Products Query",
+      "points": 0,
+      "maxPoints": 10,
+      "passed": false,
+      "duration": 2,
+      "error": "Summary DTO missing essential fields: 'id', 'sku', 'name'"
+    },
+    {
+      "name": "GET Product by ID & Detail DTO",
+      "category": "3. Products Query",
+      "points": 10,
+      "maxPoints": 10,
+      "passed": true,
+      "duration": 6
+    },
+    {
+      "name": "POST Create Product (201 Created)",
+      "category": "4. Products Modify",
+      "points": 10,
+      "maxPoints": 10,
+      "passed": true,
+      "duration": 6
+    },
+    {
+      "name": "PUT Update Product (200 OK)",
+      "category": "4. Products Modify",
+      "points": 10,
+      "maxPoints": 10,
+      "passed": true,
+      "duration": 4
+    },
+    {
+      "name": "DELETE Product (204 No Content)",
+      "category": "4. Products Modify",
+      "points": 10,
+      "maxPoints": 10,
+      "passed": true,
+      "duration": 4
+    },
+    {
+      "name": "Duplicate SKU Conflict Handling (409 Conflict)",
+      "category": "5. Standards & Error",
+      "points": 5,
+      "maxPoints": 5,
+      "passed": true,
+      "duration": 3
+    },
+    {
+      "name": "Standard JSON Envelope Format",
+      "category": "5. Standards & Error",
+      "points": 5,
+      "maxPoints": 5,
+      "passed": true,
+      "duration": 1
+    },
+    {
+      "name": "RESTful Clean Route Hierarchy",
+      "category": "5. Standards & Error",
+      "points": 5,
+      "maxPoints": 5,
+      "passed": true,
+      "duration": 3
+    }
+  ]
+}
